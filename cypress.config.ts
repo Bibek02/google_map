@@ -6,6 +6,7 @@ export default defineConfig({
     includeShadowDom: false,
     viewportHeight: 1080,
     viewportWidth: 1920,
+    reporter: 'mochawesome',
     e2e: {
         setupNodeEvents(on, config) {
             // if version is not loaded use local
