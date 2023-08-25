@@ -133,6 +133,17 @@ export class MapPage {
 ```
 11. Maintenance: Keep your Page Objects up to date to accommodate changes in the interface.
 
+## Report
+_Report are generated after tests complite in mochawesome-report/mocawesome.html folder_
+```
+    ├── ...
+    ├── mochawesome-report
+    │   ├── mocawesome.html
+    ├── ...
+
+```
+To open the generated report, install the [Live Server]() plugin in your IDE and then use it to launch the report file. The [Live Server]() will provide a live preview of the report in your browser.
+
 ### TypeScript support
 
 The code is written in Typescript.
