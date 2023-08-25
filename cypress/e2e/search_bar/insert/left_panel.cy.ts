@@ -30,7 +30,7 @@ describe('Search bar: insert place', () => {
     //then
     onDestinationPage.list.assert.endDirection(city)
   })
-  it.only('Inser random numbers in search bar', { tags: '@unHappyPath' }, () => {
+  it('Inser random numbers in search bar', { tags: '@unHappyPath' }, () => {
     //given
     const number = RandomUtil.generateNumberOfDigits(21)
     //when
