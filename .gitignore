@@ -1,0 +1,12 @@
+cypress/videos
+cypress/screenshots
+cypress/downlosd
+.idea/*
+.vscode
+!.idea/codeStyles
+node_modules
+*.iml
+target/
+local/
+package-lock.json
+cypress/fixtures
