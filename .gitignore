@@ -10,3 +10,4 @@ target/
 local/
 package-lock.json
 cypress/fixtures
+mochawesome-report
