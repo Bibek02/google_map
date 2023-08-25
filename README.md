@@ -29,12 +29,12 @@ _Below lists of run scripts with different tests data for each language_
 
 |Language        | Run script                                       | Description                                  |
 |----------------|-------------------------------------------|----------------------------------------------|
-|english         |npm run cypress:eng                        | run test in english version in UE location   |
-|dutch           |npm run cypress:dut                        | run test in english version in UE location   |
-|french          |npm run cypress:fre                        | run test in english version in UE location   |
-|japanise        |npm run cypress:jap                        | run test in english version in Asia location |
-|polish          |npm run cypress:pol                        | run test in english version in UE location   |
-|americn         |npm run cypress:usa                        | run test in english version in NA location   |
+|english         |npm run cypress:eng                        | version in UE location                       |
+|dutch           |npm run cypress:dut                        | version in UE location                       |
+|french          |npm run cypress:fre                        | version in UE location                       |
+|japanise        |npm run cypress:jap                        | version in Asia location                     |
+|polish          |npm run cypress:pol                        | version in UE location                       |
+|americn         |npm run cypress:usa                        | version in NA location                       |
 
 ## Tests
 _Actual list of tests ready for run_
