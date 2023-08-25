@@ -138,7 +138,7 @@ _Report are generated after tests complite in mochawesome-report/mocawesome.html
 ```
     ├── ...
     ├── mochawesome-report
-    │   ├── mocawesome.html
+    │   ├── mochawesome.html
     ├── ...
 
 ```
