@@ -6,7 +6,7 @@ describe('Search bar: insert place', () => {
   beforeEach(() => {
     cy.navigateToMap()
   })
-  it('Insert city in the left panel headline', { tags: '@happyPath' }, () => {
+  it('Insert city and check headline', { tags: '@happyPath' }, () => {
     //given
     const city = Cypress.env('firstCity')
     //when
@@ -16,7 +16,7 @@ describe('Search bar: insert place', () => {
     //then
     onMapPage.leftPanel.assert.header(city)
   })
-  it('Inser city and check autofil in the direction field', { tags: '@happyPath' }, () => {
+  it('Insert city and check autofil in the direction field', { tags: '@happyPath' }, () => {
     //given
     const city = Cypress.env('secondCity')
     //when
@@ -30,7 +30,7 @@ describe('Search bar: insert place', () => {
     //then
     onDestinationPage.list.assert.endDirection(city)
   })
-  it('Inser random numbers in search bar', { tags: '@unHappyPath' }, () => {
+  it('Insert random numbers and check content in left panel', { tags: '@unHappyPath' }, () => {
     //given
     const number = RandomUtil.generateNumberOfDigits(21)
     //when
