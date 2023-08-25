@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://www.google.fr/maps",
+    "location": "Europa",
+    "firstCity": "Paris",
+    "secondCity": "Londres"
+}

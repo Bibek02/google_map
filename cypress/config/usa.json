@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://www.google.com/maps",
+    "location": "North America",
+    "firstCity": "Paris",
+    "secondCity": "London"
+}

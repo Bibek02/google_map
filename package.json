@@ -1,0 +1,21 @@
+{
+  "name": "google_maps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "cypress:dut": "npx cypress open --env version='dut'",
+    "cypress:eng": "npx cypress open --env version='eng'",
+    "cypress:fra": "npx cypress open --env version='fra'",
+    "cypress:jap": "npx cypress open --env version='jap'",
+    "cypress:pol": "npx cypress open --env version='pol'",
+    "cypress:usa": "npx cypress open --env version='usa'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.4",
+    "typescript": "^5.1.6"
+  }
+}
