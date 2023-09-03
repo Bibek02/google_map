@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "cypress": "cypress open",
-    "cypress:nl": "npx cypress open --env version='nl'",
-    "cypress:gb": "npx cypress open --env version='gb'",
-    "cypress:fr": "npx cypress open --env version='fr'",
-    "cypress:jp": "npx cypress open --env version='jp'",
-    "cypress:pl": "npx cypress open --env version='pl'",
-    "cypress:us": "npx cypress open --env version='us'"
+    "cypress:nl": "npx cypress open --env version=nl",
+    "cypress:gb": "npx cypress open --env version=gb",
+    "cypress:fr": "npx cypress open --env version=fr",
+    "cypress:jp": "npx cypress open --env version=jp",
+    "cypress:pl": "npx cypress open --env version=pl",
+    "cypress:us": "npx cypress open --env version=us"
   },
   "author": "",
   "license": "ISC",
