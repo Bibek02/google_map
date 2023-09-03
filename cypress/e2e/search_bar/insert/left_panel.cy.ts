@@ -3,7 +3,7 @@ import { onMapPage } from "../../../pages/map/map"
 import { RandomUtil } from "../../../support/util/random_util"
 
 describe('Search bar: insert place', () => {
-  beforeEach(() => {
+  beforeEach(() =>{
     cy.navigateToMap()
   })
   it('Insert city and check headline', { tags: '@happyPath' }, () => {

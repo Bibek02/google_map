@@ -25,16 +25,17 @@ _Below step by step how you can install and run project._
    ```
 
 ## Run
-_Below lists of run scripts with different tests data for each language_
+_Below lists of run scripts with different tests data for each geolocation. 
+If your geolocation from which you want to run the tests is missing, add it to the config files.
 
-|Language        | Run script                                       | Description                                  |
-|----------------|-------------------------------------------|----------------------------------------------|
-|english         |npm run cypress:eng                        | version in UE location                       |
-|dutch           |npm run cypress:dut                        | version in UE location                       |
-|french          |npm run cypress:fre                        | version in UE location                       |
-|japanise        |npm run cypress:jap                        | version in Asia location                     |
-|polish          |npm run cypress:pol                        | version in UE location                       |
-|americn         |npm run cypress:usa                        | version in NA location                       |
+|Location        | Run script                                |
+|----------------|-------------------------------------------|
+|Great Britan    |npm run cypress:en                         | 
+|Holland         |npm run cypress:nl                         | 
+|France          |npm run cypress:fr                         |
+|Japan           |npm run cypress:jp                         |
+|Poland          |npm run cypress:pl                         |
+|United States   |npm run cypress:us                         |
 
 ## Tests
 _Actual list of tests ready for run_

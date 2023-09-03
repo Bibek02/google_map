@@ -27,6 +27,15 @@ if (!app.document.head.querySelector('[data-hide-command-log-request]')) {
 }
 //Disabled xhr log view :https://stackoverflow.com/questions/71357705/hide-xhr-calls-on-cypress-test-runner
 
+Cypress.on('uncaught:exception', (e) => {
+    if (
+        //included cuz make test error
+      e.message.includes("Cannot read properties of null (reading 'postMessage')")
+    ) {
+      // we expected this error, so let's ignore it and let the test continue
+      return false;
+    }
+})
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

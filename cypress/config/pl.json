@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://www.google.pl/maps",
+    "consent" : "https://consent.google.pl/save",
+    "region": "Europa",
+    "gl": "PL",
+    "hl": "pl",
+    "firstCity": "Paryż",
+    "secondCity": "Londyn"
+}

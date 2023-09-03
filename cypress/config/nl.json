@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://www.google.nl/maps/",
+    "consent" : "https://consent.google.nl/save",
+    "region": "Europa",
+    "gl": "NL",
+    "hl": "nl",
+    "firstCity": "Parijs",
+    "secondCity": "Londen"
+}

@@ -1,6 +1,6 @@
 {
     "baseUrl": "https://www.google.co.jp/maps",
-    "location": "Asia",
+    "region": "Asia",
     "firstCity": "パリ",
     "secondCity": "ロンドン"
 }
