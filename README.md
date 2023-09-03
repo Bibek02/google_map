@@ -26,7 +26,7 @@ _Below step by step how you can install and run project._
 
 ## Run
 _Below lists of run scripts with different tests data for each geolocation. 
-If your geolocation from which you want to run the tests is missing, add it to the config files.
+If your geolocation from which you want to run the tests is missing, add it to the config files_
 
 |Location        | Run script                                |
 |----------------|-------------------------------------------|
@@ -38,7 +38,7 @@ If your geolocation from which you want to run the tests is missing, add it to t
 |United States   |npm run cypress:us                         |
 
 ## Tests
-_Actual list of tests ready for run_
+_List of tests done/undone_
 
 Status  |Scenario       | Test_set    | Spec_file    | Test_name
 :------ | :------------ | :---------- | :----------- | :---------------------------------------------------
