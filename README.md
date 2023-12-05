@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to google_maps auto tests 🌄</h1>
+<h1 align="center">Welcome to googlemaps-cypress auto tests 🌄</h1>
 
 ### 🏠 [Homepage]()
 
